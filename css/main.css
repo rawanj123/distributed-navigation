@@ -20,3 +20,13 @@ header {
   flex-direction: row;
   align-items: center;
 }
+
+header h1 {
+  padding: 1rem;
+}
+
+header img {
+  max-height: 50px;
+  order: -1;
+  padding-left: 1rem;
+}
