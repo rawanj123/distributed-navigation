@@ -35,3 +35,22 @@ header p {
   padding: .75em 1em .6em;
   font-size: 1.125rem;
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+a:hover {
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 1rem;
+  padding-left: 1rem;
+  color: #0074d9;
+}
